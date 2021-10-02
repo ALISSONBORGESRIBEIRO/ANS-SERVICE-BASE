@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #d3d3d3;
+    font-family: 'Merriweather Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabeçalhoprincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+.logo {
+    margin-left: 10px;
+  
+}
+.cabeçalho {
+    display: flex;
+    margin-right: 60px;
+}
+
+.menu {
+    margin-left: 15px;
+}
+
+.titulo {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h1 ,h2 ,h3 {
+    background-size: initial;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+p {
+
+    margin: 10px;
+}
+
+.imagem {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 10px solid gray;
+}
+
+.final {
+    background-color: gray;
+    margin-bottom: 0;
+}
+
+.titulofinal {
+    margin-top: 20px;
+}
+
+.final .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato {
+    margin-top:10px;
+    margin-left: 10px;
+}
+
+.numero {
+    margin-right: 100px;
+}
+
+@media (max-width: 650px) {
+    .cabeçalhoprincipal .container {
+        flex-direction: column;
+        align-items: center;
+    }    
+
+    .cabeçalho {
+        margin-left: 50px;
+    }    
+
+    .final .container {
+        flex-shrink: 2;
+    }    
+}
+
